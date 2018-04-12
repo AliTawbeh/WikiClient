@@ -2,13 +2,10 @@ package com.example.wikiclient.network;
 
 import android.support.annotation.NonNull;
 
-import com.example.wikiclient.data.WikiResponse;
+import com.example.wikiclient.model.WikiResponse;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 
 import io.reactivex.Observable;
 import retrofit2.Retrofit;

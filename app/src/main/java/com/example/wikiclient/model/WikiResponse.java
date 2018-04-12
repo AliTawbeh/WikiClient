@@ -1,4 +1,4 @@
-package com.example.wikiclient.data;
+package com.example.wikiclient.model;
 
 import com.google.gson.JsonObject;
 

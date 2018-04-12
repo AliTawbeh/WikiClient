@@ -1,10 +1,9 @@
 package com.example.wikiclient.network;
 
-import com.example.wikiclient.data.WikiResponse;
+import com.example.wikiclient.model.WikiResponse;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 /**
